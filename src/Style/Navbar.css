@@ -1,0 +1,25 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 55px;
+  margin-bottom: -60px;
+  padding-right: 40px;
+}
+
+.navbar a {
+  font-size: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #999;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #333;
+}
+
+.navbar .active {
+  color: #333;
+  border-bottom: solid 2px #333;
+}
